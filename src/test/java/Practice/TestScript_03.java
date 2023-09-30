@@ -4,10 +4,10 @@ import org.testng.annotations.Test;
 
 public class TestScript_03
 {
-	@Test
+	@Test(groups="smoke")
 	public void TS()
 	{
-		System.out.println("Test Script-03 is running");
+		System.out.println("Test Script-03(smoke) is running");
 	}
 
 }

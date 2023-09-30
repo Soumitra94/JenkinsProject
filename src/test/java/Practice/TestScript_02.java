@@ -4,10 +4,10 @@ import org.testng.annotations.Test;
 
 public class TestScript_02 
 {
-	@Test
+	@Test(groups="regression")
 	public void TS()
 	{
-		System.out.println("Test Script-02 is running");
+		System.out.println("Test Script-02(regression) is running");
 	}
 
 }
